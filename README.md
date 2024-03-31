@@ -1,6 +1,6 @@
 # S4CH: Search 4 Computational Hate
 
-This project allows users to map out the temporal evolution of conspiracy theories and disinformation on Twitter.
+This project allows users to map out the temporal evolution of conspiracy theories and disinformation on Twitter. Main paper [here](https://arxiv.org/abs/2302.04450)
 
 ## About
 
@@ -32,3 +32,12 @@ Running code outputs the edgelist of the hashtags network and nodelist with norm
 5. Open 'posttag.ipynb'. Enter **input_directory_path** (same as **output_directory_path** in 'replacer.py') and **output_path** (final edgelist and nodelist output directories).
 6. Run 'tagset.py' and 'replacer.py' in succession. Then open 'posttag.ipynb' and run the two cells.
 7. Open edgelist and nodelist in Gephi (or any other visualisation software) to output your final hashtag network.
+
+## Citing this work
+
+This repo is a part of the work that goes into the paper _"Tracking Fringe and Coordinated Activity on Twitter Leading Up To the US Capitol Attack"_. If you use any part of the methodology, code, or as a starting point, please cite as:
+
+| Vishnuprasad, P.S., Nogara, G., Cardoso, F., Cresci, S., Giordano, S., & Luceri, L. (2023). Tracking Fringe and Coordinated Activity on Twitter Leading Up To the US Capitol Attack. ArXiv, abs/2302.04450. |
+|     :---:      |
+
+Vishnu is the corresponding author, please direct your queries to [vishnu.prasad@hdr.qut.edu.au](mailto:vishnu.prasad@hdr.qut.edu.au).
